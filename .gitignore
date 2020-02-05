@@ -1,0 +1,11 @@
+# Ignore Codeblock config files
+*.cbp
+*.layout
+*.exe
+*.o
+
+# Leetcode git ignore
+Leetcode/boot.zsh
+Leetcode/main
+Leetcode/solve.py
+Leetcode/exec/

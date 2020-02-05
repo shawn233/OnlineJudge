@@ -1,0 +1,52 @@
+# depslib dependency file v1.0
+1527310284 source:c:\users\hasee\documents\github\sjtu-oj\1236\main.cpp
+	<iostream>
+	"..\..\Data-Structure\adjListGraph\adjListGraph.h"
+
+1527306065 c:\users\hasee\documents\github\data-structure\adjlistgraph\adjlistgraph.h
+	<iostream>
+	<cstdio>
+	"..\myStack\seqStack.h"
+	"adjListGraph.cpp"
+
+1521773383 c:\users\hasee\documents\github\data-structure\mystack\seqstack.h
+	"myStack.h"
+	"seqStack.cpp"
+
+1521773383 c:\users\hasee\documents\github\data-structure\mystack\mystack.h
+	<iostream>
+	<cstdio>
+
+1521773383 c:\users\hasee\documents\github\data-structure\mystack\seqstack.cpp
+	"seqStack.h"
+
+1527310361 c:\users\hasee\documents\github\data-structure\adjlistgraph\adjlistgraph.cpp
+	"adjListGraph.h"
+	"..\myQueue\seqQueue.h"
+	"..\BinomialHeap\BinomialHeap.h"
+	"DisjSets.h"
+
+1521773383 c:\users\hasee\documents\github\data-structure\myqueue\seqqueue.h
+	"myQueue.h"
+	"seqQueue.cpp"
+
+1521773383 c:\users\hasee\documents\github\data-structure\myqueue\myqueue.h
+	<iostream>
+	<cstdio>
+
+1521773383 c:\users\hasee\documents\github\data-structure\myqueue\seqqueue.cpp
+	"seqQueue.h"
+
+1527303747 c:\users\hasee\documents\github\data-structure\binomialheap\binomialheap.h
+	<iostream>
+	<cstdio>
+	"..\myQueue\seqQueue.h"
+	"BinomialHeap.cpp"
+
+1527303735 c:\users\hasee\documents\github\data-structure\binomialheap\binomialheap.cpp
+	"BinomialHeap.h"
+
+1527260589 c:\users\hasee\documents\github\data-structure\adjlistgraph\disjsets.h
+	<iostream>
+	<cstdio>
+

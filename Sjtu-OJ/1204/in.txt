@@ -1,0 +1,6 @@
+Hello everyone.
+I hope you can have a good time during our Data Structure Class.
+Enjoy typing .
+******
+del 3 13 2
+quit

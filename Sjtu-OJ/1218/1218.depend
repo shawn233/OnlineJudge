@@ -1,0 +1,37 @@
+# depslib dependency file v1.0
+1526002316 source:c:\users\73936\documents\github\sjtu-oj\1218\main.cpp
+	<iostream>
+	<cstdio>
+
+1525998860 c:\users\73936\documents\github\data-structure\binarysearchtree\binarysearchtree.h
+	<iostream>
+	<cstdio>
+	"BinarySearchTree.cpp"
+
+1526001556 c:\users\73936\documents\github\data-structure\binarysearchtree\binarysearchtree.cpp
+	"BinarySearchTree.h"
+	"..\myQueue\seqQueue.h"
+	"..\myStack\seqStack.h"
+
+1521708765 c:\users\73936\documents\github\data-structure\myqueue\seqqueue.h
+	"myQueue.h"
+	"seqQueue.cpp"
+
+1521703615 c:\users\73936\documents\github\data-structure\myqueue\myqueue.h
+	<iostream>
+	<cstdio>
+
+1521708934 c:\users\73936\documents\github\data-structure\myqueue\seqqueue.cpp
+	"seqQueue.h"
+
+1521509611 c:\users\73936\documents\github\data-structure\mystack\seqstack.h
+	"myStack.h"
+	"seqStack.cpp"
+
+1521509714 c:\users\73936\documents\github\data-structure\mystack\mystack.h
+	<iostream>
+	<cstdio>
+
+1521509692 c:\users\73936\documents\github\data-structure\mystack\seqstack.cpp
+	"seqStack.h"
+

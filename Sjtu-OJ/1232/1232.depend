@@ -1,0 +1,17 @@
+# depslib dependency file v1.0
+1526612105 source:c:\users\73936\documents\github\sjtu-oj\1232\main.cpp
+	<iostream>
+	<cstdio>
+	"..\..\Data-Structure\myStack\seqStack.h"
+
+1521509611 c:\users\73936\documents\github\data-structure\mystack\seqstack.h
+	"myStack.h"
+	"seqStack.cpp"
+
+1521509714 c:\users\73936\documents\github\data-structure\mystack\mystack.h
+	<iostream>
+	<cstdio>
+
+1521509692 c:\users\73936\documents\github\data-structure\mystack\seqstack.cpp
+	"seqStack.h"
+

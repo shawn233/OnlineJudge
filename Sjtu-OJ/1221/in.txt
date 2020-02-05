@@ -1,0 +1,31 @@
+30
+insert 37339
+insert 57441
+find 13346
+find 37339
+insert 1072
+find_ith 1
+delete_interval 1071 57442
+insert 88760
+delete 88760
+insert 70394
+find 44898
+delete_greater_than 70393
+insert 97436
+find_ith 2
+find 97436
+delete_interval 97435 97437
+insert 77807
+insert 32532
+insert 82543
+delete_less_than 82544
+insert 16143
+delete_interval 16142 16144
+insert 91155
+delete_less_than 91156
+insert 88985
+insert 32857
+insert 4963
+find_ith 3
+delete 88985
+delete_interval 4962 32858

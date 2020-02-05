@@ -1,0 +1,8 @@
+5
+1 2 3 4 5
+findmin 4
+decrease 5 1
+findmin 3
+decrease 5 10
+findmin 3
+findmin -100

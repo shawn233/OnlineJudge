@@ -1,0 +1,12 @@
+# depslib dependency file v1.0
+1511005693 source:/home/xinyu/Documents/cpp/sjtuOJ/1043/main.cpp
+	<iostream>
+	<cstdio>
+	<cmath>
+	<map>
+	<queue>
+	<cstring>
+	<iostream>
+	<cstdio>
+	<cstring>
+

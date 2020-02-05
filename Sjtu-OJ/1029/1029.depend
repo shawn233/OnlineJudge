@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1511012006 source:/home/xinyu/Documents/cpp/sjtuOJ/1029/main.cpp
+	<iostream>
+	<cstdio>
+

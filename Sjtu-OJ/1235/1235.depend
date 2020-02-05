@@ -1,0 +1,26 @@
+# depslib dependency file v1.0
+1527303576 source:c:\users\hasee\documents\github\sjtu-oj\1235\main.cpp
+	<iostream>
+	<cstdio>
+	"..\..\Data-Structure\BinomialHeap\BinomialHeap.h"
+
+1527303747 c:\users\hasee\documents\github\data-structure\binomialheap\binomialheap.h
+	<iostream>
+	<cstdio>
+	"..\myQueue\seqQueue.h"
+	"BinomialHeap.cpp"
+
+1521773383 c:\users\hasee\documents\github\data-structure\myqueue\seqqueue.h
+	"myQueue.h"
+	"seqQueue.cpp"
+
+1521773383 c:\users\hasee\documents\github\data-structure\myqueue\myqueue.h
+	<iostream>
+	<cstdio>
+
+1521773383 c:\users\hasee\documents\github\data-structure\myqueue\seqqueue.cpp
+	"seqQueue.h"
+
+1527303735 c:\users\hasee\documents\github\data-structure\binomialheap\binomialheap.cpp
+	"BinomialHeap.h"
+

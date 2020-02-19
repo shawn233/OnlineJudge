@@ -1,14 +1,43 @@
 class Solution {
 public:
-    int pivot, len;
+    // 4ms solution 3
+    // This solution runs binary search in one pass, 
+    // avoiding the need to locate pivot element
+    // Reference: https://leetcode.com/problems/search-in-rotated-sorted-array/discuss/14436/Revised-Binary-Search
+    int search(vector<int>& nums, int target) {
+        if (nums.empty()) return -1;
+        int left = 0, right = nums.size()-1, mid;
+        while (left <= right) {
+            mid = (left+right)/2;
+            if (nums[mid] == target) return mid;
+            // must use <= in the condition to deal with the case
+            // when left == mid, i.e., left+1 == right. 
+            // If we use <, then when left == mid,
+            // we will get that [nums[left], nums[right]] is monotonically
+            // increasing, which is clearly wrong in most cases
+            else if (nums[left] <= nums[mid]) {
+                if (nums[left] <= target && target < nums[mid])
+                    right = mid-1;
+                else
+                    left = mid+1;
+            } else {
+                if (nums[mid] < target && target <= nums[right])
+                    left = mid+1;
+                else
+                    right = mid-1;
+            }
+        }
+        return -1;
+    }
+    
     // 4ms solution 2: the same with my 2-year-ago implemention
     // for detailed analysis please see my note before solution 1 
-    int search(vector<int>& nums, int target) {
+    int search2(vector<int>& nums, int target) {
         if (nums.size() == 0)
             return -1;
-        
+
         // find pivot
-        int left=0, right=nums.size()-1, mid;
+        int pivot, left=0, right=nums.size()-1, mid, realmid;
         if (nums[0] < nums[nums.size()-1])
             pivot = 0;
         else {
@@ -23,17 +52,18 @@ public:
             pivot = left;
         }
         
-        len = nums.size();
         left = 0;
-        right = len-1;
+        right = nums.size()-1;
         while (left < right) {
             mid = (left + right)/2;
-            if (nums[reindex(mid)] == target) return reindex(mid);
-            else if (nums[reindex(mid)] < target) left = mid+1;
+            realmid = (pivot+mid)%nums.size();
+            if (nums[realmid] == target) return realmid;
+            else if (nums[realmid] < target) left = mid+1;
             else right = mid-1;
         }
-        if (nums[reindex(left)] == target)
-            return reindex(left);
+        realmid = (pivot+left)%nums.size();
+        if (nums[realmid] == target)
+            return realmid;
         else
             return -1;
     }
@@ -100,9 +130,5 @@ public:
             return left;
         else
             return -1;
-    }
-    
-    inline int reindex(int orig_idx) {
-        return (orig_idx + pivot) % len;
     }
 };

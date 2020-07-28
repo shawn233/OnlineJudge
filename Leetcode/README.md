@@ -8,6 +8,12 @@ To verify a solution, modify `solve.py exec/solve.cpp` and run
 python solve.py
 ```
 
+# Algorithm Sample Problems
+
+Boyer-Moore majority voting algorithm: 169, 229
+
+Backtracing: 217, 219
+
 # 引子
 
 2020.01.15 北海，广西，CN

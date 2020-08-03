@@ -14,6 +14,10 @@ Boyer-Moore majority voting algorithm: 169, 229
 
 Backtracing: 217, 219
 
+Two pointers: 141, 142
+
+Floyd's Tortoise and Hare (Cycle detection algorithm): 142, 287
+
 # 引子
 
 2020.01.15 北海，广西，CN
